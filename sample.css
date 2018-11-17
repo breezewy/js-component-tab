@@ -27,10 +27,12 @@
 }
 .container {
   border:1px solid ;
+  width:500px;
+  height:300px;
 }
+
 .container .pannel{
-  width:400px;
-  height:200px;
+  height:100%;
   padding:50px;
   font-size:30px;
   color:blue;
