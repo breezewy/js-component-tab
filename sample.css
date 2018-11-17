@@ -1,0 +1,41 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+.tab-container{
+  margin:50px;
+  padding:20px;
+  /* background:pink; */
+}
+.tab-container .header{
+  display:flex;
+}
+.header .tab{
+  border-left:1px solid;
+  border-top:1px solid;
+  padding:15px 30px;
+  background:#666;
+  cursor:pointer;
+}
+.header .tab.active{
+  background:#fff;
+  font-size:18px;
+}
+.header .tab:last-child{
+  border-right:1px solid;
+}
+.container {
+  border:1px solid ;
+}
+.container .pannel{
+  width:400px;
+  height:200px;
+  padding:50px;
+  font-size:30px;
+  color:blue;
+  display:none;
+}
+.container .pannel.show{
+  display:block;
+}
